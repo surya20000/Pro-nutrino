@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import FoodBox from "./components/FoodBox";
 import FoodData from "./components/FoodData"
 import './App.css';
-import Search from "./components/search";
+import Search from "./components/Search.jsx";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
