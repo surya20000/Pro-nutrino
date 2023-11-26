@@ -1,0 +1,26 @@
+.maincontent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(251, 252, 251);
+}
+
+.content {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 8px;
+    align-items: center;
+    background-color: rgb(227, 233, 226);
+    width: max-content;
+}
+
+.inpu {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+}
+
+.reset {
+    padding: 5px;
+    background-color: rgb(113, 114, 113);
+}
